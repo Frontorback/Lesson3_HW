@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .card
+    {
+        display: flex ;
+        flex-direction: column;
+        border: 1px solid grey;
+        width: 100%;
+        max-width: 200px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+    .card-page{
+   flex: 0 0 160px;
+   height: 134px;
+   top: 30px;
+   margin-left: 20px;
+    }
+   .card-p{
+    flex: 0 0 169px;
+   height: 31px;
+   top: 209px;
+   margin-left: 15px;
+   }
+   .card-two{
+    flex: 0 0 101px;
+   height: 13px;
+   top: 246px;
+   margin-left: 15px;
+   }
+    
+     .img{
+         
+        
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: flex-start;
+     }
+    .price{
+        
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: flex-start;
+    }
+    .img-top{
+    border-bottom: 20px;
+   flex: 0 0 91px;
+   height: 15px;
+   top: 274px;
+   margin-left: 15px;
+    }
+    .img-feedback{
+    flex: 0 0 58px;
+   height: 13px;
+   top: 275px;
+   margin-left: 127px;
+    }
+    .price-one{
+   flex: 0 0 29px;
+   height: 13px;
+   top: 314px;
+   margin-left: 15px;
+    }
+    .price-two{
+   flex: 0 0 79px;
+   height: 19px;
+   top: 309px;
+   margin-left: 106px;
+    }
+    button{
+    
+    font-size: large;
+   background: #00ACDC;
+   width: 170px;
+   height: 40px;
+   top: 348px;
+   margin-left: 15px;
+   
+   border-radius: 6px ;
+   color: #FFFFFF;
+   
+   }
+   .buttons:hover {
+       color: #00ACDC;
+       background-color:white;
+       border:3px solid #00ACDC;
+   }
+  
+</style>
+<body>
+    <div class="card">
+        <img class="card-page" src="https://raw.githubusercontent.com/bcherepakha/fe2209/master/Lesson3/Task2/cardImage.jpg" alt="monitor" style="width:100%">
+    
+    <div class="card-p">Моноблок APPLE A1419 iMac "27" Retina 5K (MNED2UA/A)</div>
+    <div class="card-two">Код товара: 195434</div>
+
+<div class="img">
+    <img class="img-top" src=https://apelsun.ua/images/news/3572834866_orig.jpg alt="stars" style="width:50%"> 
+    <div class="img-feedback">Отзывов:5</div>
+</div>
+    <div class="price">
+      <div class="price-one">Цена</div>
+     <div class="price-two">69 999грн</div>
+    </div>
+    <div class="button">
+<button class="buttons" type="submit">Купить</button>
+    </div>
+</div>
+</body>
+</html>
